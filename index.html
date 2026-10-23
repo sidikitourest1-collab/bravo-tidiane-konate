@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#071a52">
+<meta name="description" content="Une surprise de félicitations pour Tidiane Konaté après son cours de création d'applications mobiles avec l'IA.">
+<title>Bravo Tidiane Konaté ! 🚀</title>
+<style>
+:root{--navy:#06143e;--blue:#1769ff;--cyan:#42e8ff;--gold:#ffe66d;--pink:#ff65bd;--white:#f8fbff}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:var(--white);background:#06143e;overflow-x:hidden}
+button{font:inherit;cursor:pointer}
+a{color:inherit}
+.bg{position:fixed;inset:0;z-index:-3;background:radial-gradient(circle at 15% 15%,#153f9a 0,transparent 32%),radial-gradient(circle at 85% 30%,#5c197f 0,transparent 28%),radial-gradient(circle at 50% 90%,#064f88 0,transparent 40%),linear-gradient(135deg,#030a24,#071a52 55%,#170b3b)}
+#particles{position:fixed;inset:0;z-index:-1;pointer-events:none;overflow:hidden}
+.particle{position:absolute;bottom:-30px;border-radius:50%;background:linear-gradient(135deg,var(--cyan),var(--pink));opacity:.55;animation:floatUp linear infinite}
+.nav{display:flex;align-items:center;justify-content:space-between;gap:12px;max-width:1180px;margin:auto;padding:20px 22px}
+.brand{font-weight:900;letter-spacing:.04em;display:flex;align-items:center;gap:10px}
+.brand-mark{display:grid;place-items:center;width:42px;height:42px;border-radius:14px;background:linear-gradient(135deg,var(--cyan),#6684ff);color:#06143e;box-shadow:0 0 28px #42e8ff55;font-size:22px}
+.nav-pill{font-size:.8rem;border:1px solid #ffffff35;border-radius:999px;padding:9px 13px;color:#d8e7ff;background:#ffffff0c}
+.hero{max-width:1180px;margin:0 auto;padding:38px 22px 60px;display:grid;grid-template-columns:1.15fr .85fr;align-items:center;gap:35px;min-height:600px}
+.eyebrow{display:inline-flex;align-items:center;gap:8px;color:var(--gold);font-weight:800;letter-spacing:.13em;text-transform:uppercase;font-size:.78rem}
+.pulse{width:8px;height:8px;border-radius:50%;background:#55ffbd;box-shadow:0 0 0 0 #55ffbd;animation:pulse 1.6s infinite}
+h1{font-size:clamp(3rem,7vw,6.5rem);line-height:.95;letter-spacing:-.065em;margin:18px 0 20px;font-weight:1000}
+.gradient-text{background:linear-gradient(95deg,#fff,var(--cyan) 38%,var(--gold) 72%,var(--pink));background-clip:text;color:transparent}
+.hero p{font-size:clamp(1rem,2vw,1.2rem);line-height:1.75;color:#d6e4ff;max-width:650px}
+.student{display:inline-block;color:white;font-weight:900;text-shadow:0 0 22px #42e8ff77}
+.actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:26px}
+.btn{border:0;border-radius:15px;padding:14px 19px;font-weight:850;transition:transform .2s,box-shadow .2s}
+.btn:hover{transform:translateY(-3px)}
+.btn-primary{background:linear-gradient(100deg,var(--cyan),#8aa1ff);color:#07143d;box-shadow:0 10px 35px #42e8ff33}
+.btn-glass{background:#ffffff10;border:1px solid #ffffff40;color:white}
+.visual{position:relative;min-height:420px;display:grid;place-items:center}
+.orbit{position:absolute;width:min(90%,410px);aspect-ratio:1;border:1px dashed #a5d8ff66;border-radius:50%;animation:spin 28s linear infinite}
+.orbit:before,.orbit:after{content:"";position:absolute;width:18px;height:18px;border-radius:50%;background:var(--gold);box-shadow:0 0 24px var(--gold)}
+.orbit:before{top:12%;left:18%}.orbit:after{bottom:10%;right:16%;background:var(--pink);box-shadow:0 0 24px var(--pink)}
+.achievement{position:relative;width:min(90%,350px);aspect-ratio: .82;border:1px solid #ffffff4d;border-radius:34px;padding:24px;background:linear-gradient(150deg,#ffffff20,#ffffff08);backdrop-filter:blur(14px);box-shadow:0 30px 90px #0005;transform:rotate(3deg);animation:bob 5s ease-in-out infinite}
+.achievement-top{display:flex;justify-content:space-between;align-items:center;color:#cce6ff;font-size:.8rem;font-weight:800}
+.trophy{font-size:clamp(5rem,12vw,8rem);text-align:center;margin:24px 0 6px;filter:drop-shadow(0 10px 20px #ffe66d44);animation:shine 2.5s ease-in-out infinite}
+.achievement h2{text-align:center;font-size:2rem;margin:0 0 8px}
+.achievement p{text-align:center;font-size:.92rem;line-height:1.5;color:#dbe8ff}
+.stars{text-align:center;letter-spacing:9px;color:var(--gold);font-size:1.5rem}
+.floating{position:absolute;font-size:2.2rem;animation:bob 4s ease-in-out infinite}
+.f1{top:5%;left:2%}.f2{right:1%;top:18%;animation-delay:-1s}.f3{left:4%;bottom:9%;animation-delay:-2s}.f4{right:2%;bottom:6%;animation-delay:-.5s}
+section{max-width:1120px;margin:0 auto;padding:48px 22px}
+.section-label{color:var(--cyan);font-size:.78rem;font-weight:900;letter-spacing:.15em;text-transform:uppercase}
+.section-title{font-size:clamp(2rem,4vw,3.4rem);letter-spacing:-.04em;margin:10px 0 12px}
+.section-intro{color:#c7d8fa;line-height:1.7;max-width:720px;margin-bottom:28px}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.card{border:1px solid #ffffff24;border-radius:22px;padding:22px;background:linear-gradient(145deg,#ffffff12,#ffffff06);box-shadow:0 16px 40px #0002;transition:transform .25s,border-color .25s;position:relative;overflow:hidden}
+.card:hover{transform:translateY(-6px);border-color:#42e8ff88}
+.card-icon{width:54px;height:54px;border-radius:17px;display:grid;place-items:center;font-size:1.8rem;background:linear-gradient(135deg,#42e8ff25,#ff65bd25);border:1px solid #ffffff22;margin-bottom:15px}
+.card h3{margin:0 0 8px;font-size:1.15rem}.card p{color:#c7d8fa;line-height:1.65;font-size:.94rem;margin:0}
+.tag{display:inline-block;margin-top:14px;padding:6px 10px;border-radius:999px;font-size:.73rem;color:#bdf8ff;background:#42e8ff14;border:1px solid #42e8ff2c;font-weight:800}
+.timeline{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}
+.step{padding:18px;border-radius:18px;background:#ffffff0b;border:1px solid #ffffff20}
+.step-num{font-size:.75rem;font-weight:900;color:var(--gold);letter-spacing:.1em}.step h3{font-size:1rem;margin:10px 0 6px}.step p{color:#c7d8fa;font-size:.88rem;line-height:1.55;margin:0}
+.quote-box{position:relative;padding:clamp(25px,5vw,52px);border-radius:30px;background:linear-gradient(115deg,#1769ff40,#9d4dff30,#ff65bd20);border:1px solid #ffffff35;overflow:hidden}
+.quote-box:after{content:"✦";position:absolute;right:25px;top:0;font-size:7rem;color:#ffffff0b}
+.quote{font-size:clamp(1.35rem,3vw,2.5rem);line-height:1.35;font-weight:900;letter-spacing:-.025em;max-width:800px}
+.quote em{font-style:normal;color:var(--gold)}
+.signature{color:#c7d8fa;margin-top:18px}
+.interactive{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.challenge{border:1px solid #ffffff2a;border-radius:24px;padding:24px;background:#ffffff0b}
+.challenge h3{margin-top:0}.challenge p{color:#c7d8fa;line-height:1.6}
+.checklist{display:grid;gap:10px;margin:18px 0}
+.check-row{display:flex;gap:10px;align-items:flex-start;color:#e5eeff;line-height:1.5}
+.check-row input{accent-color:#42e8ff;width:18px;height:18px;margin-top:3px}
+.progress-wrap{height:9px;background:#ffffff18;border-radius:999px;overflow:hidden;margin:14px 0}
+.progress{height:100%;width:0;background:linear-gradient(90deg,var(--cyan),var(--pink));border-radius:999px;transition:width .3s}
+.progress-label{font-size:.85rem;color:#c7d8fa}
+.motivation{display:flex;align-items:center;gap:14px;margin-top:18px;padding:16px;border-radius:17px;background:#ffe66d12;border:1px solid #ffe66d40}
+.motivation span{font-size:2rem}.motivation p{margin:0;color:#fff0ad;line-height:1.5}
+.footer{text-align:center;padding:40px 20px 55px;color:#aebfe2}
+.footer strong{color:white}.footer .heart{color:#ff65bd}
+#toast{position:fixed;left:50%;bottom:24px;transform:translate(-50%,20px);opacity:0;pointer-events:none;background:#f8fbff;color:#07143d;font-weight:850;padding:13px 18px;border-radius:14px;box-shadow:0 12px 40px #0005;transition:.3s;z-index:5;text-align:center;max-width:90vw}
+#toast.show{opacity:1;transform:translate(-50%,0)}
+.confetti{position:fixed;top:-20px;width:9px;height:14px;z-index:10;pointer-events:none;animation:confettiFall 2.8s linear forwards}
+@keyframes floatUp{to{transform:translateY(-110vh) rotate(360deg);opacity:0}}
+@keyframes spin{to{transform:rotate(360deg)}}
+@keyframes bob{0%,100%{transform:translateY(0) rotate(3deg)}50%{transform:translateY(-13px) rotate(1deg)}}
+@keyframes shine{0%,100%{transform:scale(1)}50%{transform:scale(1.08)}}
+@keyframes pulse{70%{box-shadow:0 0 0 10px #55ffbd00}}
+@keyframes confettiFall{to{transform:translateY(110vh) rotate(720deg);opacity:.1}}
+@media(max-width:800px){.hero{grid-template-columns:1fr;padding-top:35px;gap:10px}.visual{min-height:370px}.grid{grid-template-columns:repeat(2,1fr)}.timeline{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:520px){.nav{padding:14px}.nav-pill{font-size:.68rem}.hero{padding:25px 18px 35px}.visual{min-height:340px}.achievement{width:min(82%,310px)}section{padding:36px 17px}.grid,.interactive{grid-template-columns:1fr}.timeline{grid-template-columns:1fr 1fr}.card{padding:19px}.quote-box{padding:25px 20px}}
+@media(prefers-reduced-motion:reduce){*,*:before,*:after{animation-duration:.01ms!important;animation-iteration-count:1!important;scroll-behavior:auto!important;transition:none!important}}
+</style>
+</head>
+<body>
+<div class="bg"></div><div id="particles" aria-hidden="true"></div>
+<nav class="nav">
+  <div class="brand"><div class="brand-mark">✦</div> STUDIO DES FUTURS CRÉATEURS</div>
+  <div class="nav-pill">📅 Vendredi 23 octobre 2026</div>
+</nav>
+
+<header class="hero">
+  <div>
+    <div class="eyebrow"><span class="pulse"></span> Une belle étape vient d'être franchie</div>
+    <h1>BRAVO<br><span class="gradient-text">TIDIANE !</span></h1>
+    <p>
+      <span class="student">Tidiane Konaté</span>, aujourd'hui tu as appris, découvert et posé les premières pierres de ton parcours dans le monde du numérique. Chaque grand développeur a commencé par apprendre les bases — et tu viens de faire un pas important !
+    </p>
+    <div class="actions">
+      <button class="btn btn-primary" id="celebrateBtn">🎉 Célébrer ma réussite</button>
+      <button class="btn btn-glass" id="journeyBtn">🚀 Revoir mon parcours</button>
+    </div>
+  </div>
+  <div class="visual" aria-label="Carte de réussite animée">
+    <div class="orbit"></div>
+    <div class="floating f1">💡</div><div class="floating f2">🧠</div><div class="floating f3">⚡</div><div class="floating f4">🪐</div>
+    <div class="achievement">
+      <div class="achievement-top"><span>CARTE DE RÉUSSITE</span><span>01 / 01</span></div>
+      <div class="trophy">🏆</div>
+      <h2>Bien joué !</h2>
+      <p>À <strong>Tidiane Konaté</strong><br>Pour son sérieux, sa curiosité et ses efforts.</p>
+      <div class="stars">★ ★ ★</div>
+      <p>Apprendre aujourd'hui.<br><strong>Créer demain.</strong></p>
+    </div>
+  </div>
+</header>
+
+<section id="parcours">
+  <div class="section-label">Ce que tu as découvert aujourd'hui</div>
+  <h2 class="section-title">Les bases de ton aventure numérique 💻</h2>
+  <p class="section-intro">Tu as commencé à découvrir les outils et les notions qui servent à imaginer, construire et améliorer des sites web et des applications.</p>
+  <div class="grid">
+    <article class="card"><div class="card-icon">📱</div><h3>Qu'est-ce qu'une application ?</h3><p>Un programme qui permet de réaliser des tâches sur un téléphone, une tablette ou un ordinateur.</p><span class="tag">Comprendre les applis</span></article>
+    <article class="card"><div class="card-icon">🌐</div><h3>Qu'est-ce qu'un site web ?</h3><p>Un ensemble de pages que l'on consulte avec un navigateur pour lire, apprendre, partager ou utiliser un service.</p><span class="tag">Découvrir le Web</span></article>
+    <article class="card"><div class="card-icon">🤖</div><h3>L'intelligence artificielle</h3><p>Des outils capables d'aider à expliquer, rechercher, proposer des idées et accompagner la création.</p><span class="tag">Utiliser l'IA avec réflexion</span></article>
+    <article class="card"><div class="card-icon">🧩</div><h3>Les langages de programmation</h3><p>Des langages comme Python, JavaScript, C et C++ servent à donner des instructions à un ordinateur.</p><span class="tag">Apprendre à raisonner</span></article>
+    <article class="card"><div class="card-icon">🎨</div><h3>Les outils du Web</h3><p>HTML organise le contenu, CSS s'occupe de l'apparence, PHP peut gérer la partie serveur et MySQL les données.</p><span class="tag">HTML · CSS · PHP · MySQL</span></article>
+    <article class="card"><div class="card-icon">📲</div><h3>Les applications mobiles</h3><p>Kotlin sert notamment au développement Android. Flutter permet de créer des applications pour Android et iOS avec Dart.</p><span class="tag">Kotlin · Flutter · Dart</span></article>
+  </div>
+</section>
+
+<section>
+  <div class="section-label">Tes outils de départ</div>
+  <h2 class="section-title">Un bon créateur sait bien choisir ses outils 🧰</h2>
+  <p class="section-intro">Tu as aussi commencé à installer des applications qui pourront t'aider pendant la formation. Prends le temps de les découvrir et de comprendre à quoi chacune sert.</p>
+  <div class="grid">
+    <article class="card"><div class="card-icon">💬</div><h3>ChatGPT</h3><p>Pour poser des questions, comprendre une notion et demander de l'aide quand tu bloques.</p></article>
+    <article class="card"><div class="card-icon">🐋</div><h3>DeepSeek</h3><p>Pour explorer des explications, réfléchir à des problèmes et obtenir de l'aide en programmation.</p></article>
+    <article class="card"><div class="card-icon">✨</div><h3>Gemini</h3><p>Pour apprendre, explorer des idées et découvrir différentes façons de résoudre un problème.</p></article>
+    <article class="card"><div class="card-icon">⌨️</div><h3>WebCode</h3><p>Un éditeur pour écrire et tester du code web, notamment en HTML et CSS, selon les fonctions disponibles dans l'application.</p></article>
+    <article class="card"><div class="card-icon">🐍</div><h3>Python</h3><p>Un langage réputé accessible pour apprendre les bases de la programmation et créer des petits projets.</p></article>
+    <article class="card"><div class="card-icon">📌</div><h3>Pinterest</h3><p>Pour trouver des inspirations visuelles, des idées de design et des exemples de projets.</p></article>
+  </div>
+</section>
+
+<section>
+  <div class="section-label">Ton chemin commence ici</div>
+  <h2 class="section-title">Les qualités d'un futur développeur 🌟</h2>
+  <div class="timeline">
+    <div class="step"><div class="step-num">ÉTAPE 01</div><h3>👀 Observer</h3><p>Regarde comment les applications et les sites sont organisés.</p></div>
+    <div class="step"><div class="step-num">ÉTAPE 02</div><h3>❓ Poser des questions</h3><p>Quand tu ne comprends pas, demande une explication et cherche à comprendre.</p></div>
+    <div class="step"><div class="step-num">ÉTAPE 03</div><h3>⌨️ Pratiquer</h3><p>Essaie, fais des erreurs, corrige-les et recommence tranquillement.</p></div>
+    <div class="step"><div class="step-num">ÉTAPE 04</div><h3>🚀 Créer</h3><p>Transforme petit à petit tes connaissances en projets qui fonctionnent.</p></div>
+  </div>
+</section>
+
+<section>
+  <div class="quote-box">
+    <div class="section-label">Un message pour toi</div>
+    <div class="quote">« Tu n'as pas besoin de tout savoir aujourd'hui. Tu dois simplement avoir le courage d'<em>apprendre un peu plus chaque jour.</em> »</div>
+    <div class="signature">Continue avec patience, curiosité et détermination. Le plus important, c'est de ne pas abandonner devant la première difficulté.</div>
+  </div>
+</section>
+
+<section>
+  <div class="section-label">Petit défi de fin de cours</div>
+  <h2 class="section-title">Fais le point sur ta progression ✅</h2>
+  <p class="section-intro">Coche les choses que tu penses avoir comprises aujourd'hui. Ce n'est pas un examen : c'est juste une façon de voir ce que tu retiens et ce que tu voudras revoir.</p>
+  <div class="interactive">
+    <div class="challenge">
+      <h3>Ma checklist de l'apprenant</h3>
+      <div class="checklist" id="checklist">
+        <label class="check-row"><input type="checkbox"> Je peux expliquer la différence entre une application et un site web.</label>
+        <label class="check-row"><input type="checkbox"> Je peux expliquer simplement à quoi sert l'intelligence artificielle.</label>
+        <label class="check-row"><input type="checkbox"> Je reconnais quelques langages et leur rôle.</label>
+        <label class="check-row"><input type="checkbox"> Je connais les outils installés pour la formation.</label>
+        <label class="check-row"><input type="checkbox"> Je suis prêt à pratiquer et à poser des questions.</label>
+      </div>
+      <div class="progress-wrap"><div class="progress" id="progress"></div></div>
+      <div class="progress-label" id="progressLabel">0 sur 5 éléments cochés</div>
+    </div>
+    <div class="challenge">
+      <h3>💌 Ton engagement</h3>
+      <p>Un petit pas aujourd'hui, un pas de plus au prochain cours. Reste curieux, respecte les étapes et n'aie pas peur de te tromper : chaque erreur peut t'apprendre quelque chose.</p>
+      <div class="motivation"><span>🌱</span><p><strong>La compétence grandit avec la pratique.</strong><br>Continue d'avancer, Tidiane !</p></div>
+      <div class="actions"><button class="btn btn-primary" id="promiseBtn">Je continue à apprendre !</button><button class="btn btn-glass" id="shareBtn">📋 Copier mon message</button></div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div style="font-size:2rem;margin-bottom:10px">🚀 ✨ 💙</div>
+  <p><strong>Félicitations, Tidiane Konaté !</strong></p>
+  <p>Formation à la création d'applications mobiles avec l'intelligence artificielle</p>
+  <p>Vendredi 23 octobre 2026 · <span class="heart">Fait avec encouragement et confiance.</span></p>
+  <p style="font-size:.78rem;margin-top:24px">« Apprendre aujourd'hui, créer demain. »</p>
+</footer>
+
+<div class="music-control" id="musicControl">
+  <button class="btn btn-glass music-btn" id="musicBtn" type="button" aria-pressed="false">🎵 Activer la musique</button>
+  <span id="musicStatus">Si la musique ne démarre pas, appuie sur le bouton.</span>
+</div>
+<audio id="bgMusic" src="musique.mp3" autoplay loop preload="auto"></audio>
+<style>
+.music-control{position:fixed;right:16px;bottom:16px;z-index:20;display:flex;align-items:center;gap:10px;max-width:calc(100vw - 24px);padding:8px 10px;border:1px solid #ffffff35;border-radius:18px;background:#07143de8;backdrop-filter:blur(12px);box-shadow:0 10px 35px #0005}
+.music-btn{padding:10px 13px;white-space:nowrap}
+#musicStatus{font-size:.72rem;color:#d6e4ff;max-width:170px;line-height:1.35}
+@media(max-width:520px){.music-control{left:12px;right:12px;bottom:12px;justify-content:space-between}.music-btn{font-size:.8rem}#musicStatus{max-width:140px}}
+</style>
+
+<div id="toast" role="status" aria-live="polite"></div>
+
+<script>
+
+const bgMusic=document.getElementById('bgMusic');
+const musicBtn=document.getElementById('musicBtn');
+const musicStatus=document.getElementById('musicStatus');
+async function startMusic(){
+  try{await bgMusic.play();musicBtn.textContent='🔊 Couper la musique';musicBtn.setAttribute('aria-pressed','true');musicStatus.textContent='La musique joue en boucle.';}
+  catch(err){musicStatus.textContent='Appuie sur le bouton pour démarrer la musique.';}
+}
+musicBtn.addEventListener('click',async()=>{
+  if(bgMusic.paused){await startMusic();}
+  else{bgMusic.pause();musicBtn.textContent='🎵 Activer la musique';musicBtn.setAttribute('aria-pressed','false');musicStatus.textContent='Musique en pause.';}
+});
+window.addEventListener('load',startMusic);
+
+const particleHost=document.getElementById('particles');
+for(let i=0;i<28;i++){const p=document.createElement('span');p.className='particle';const size=3+Math.random()*8;p.style.width=size+'px';p.style.height=size+'px';p.style.left=Math.random()*100+'%';p.style.animationDuration=(12+Math.random()*18)+'s';p.style.animationDelay=(-Math.random()*24)+'s';particleHost.appendChild(p)}
+const toast=document.getElementById('toast');let toastTimer;
+function showToast(message){toast.textContent=message;toast.classList.add('show');clearTimeout(toastTimer);toastTimer=setTimeout(()=>toast.classList.remove('show'),2800)}
+function celebrate(){for(let i=0;i<100;i++){const c=document.createElement('span');c.className='confetti';c.style.left=Math.random()*100+'vw';c.style.background=['#42e8ff','#ffe66d','#ff65bd','#70ffb4','#9a8bff'][Math.floor(Math.random()*5)];c.style.animationDelay=Math.random()*.8+'s';c.style.transform='rotate('+Math.random()*360+'deg)';document.body.appendChild(c);setTimeout(()=>c.remove(),3800)}showToast('🎉 Bravo Tidiane ! Continue sur cette belle lancée !')}
+document.getElementById('celebrateBtn').addEventListener('click',celebrate);
+document.getElementById('journeyBtn').addEventListener('click',()=>document.getElementById('parcours').scrollIntoView({behavior:'smooth'}));
+const boxes=[...document.querySelectorAll('#checklist input')],progress=document.getElementById('progress'),progressLabel=document.getElementById('progressLabel');
+function updateProgress(){const n=boxes.filter(b=>b.checked).length;progress.style.width=(n/boxes.length*100)+'%';progressLabel.textContent=n+' sur '+boxes.length+' éléments cochés'+(n===boxes.length?' — excellent travail !':'');if(n===boxes.length)showToast('🌟 Super ! Tu as fait le point sur toutes les notions.')}
+boxes.forEach(b=>b.addEventListener('change',updateProgress));
+document.getElementById('promiseBtn').addEventListener('click',()=>{celebrate();showToast('💙 Engagement enregistré dans cette page : continue à apprendre !')});
+document.getElementById('shareBtn').addEventListener('click',async()=>{const msg='Je suis Tidiane Konaté. Aujourd’hui, 23 octobre 2026, j’ai commencé à découvrir les bases du développement, du Web et de l’intelligence artificielle. Je continue à apprendre, à pratiquer et à créer ! 🚀';try{await navigator.clipboard.writeText(msg);showToast('📋 Message copié ! Tu peux le partager.')}catch(e){const t=document.createElement('textarea');t.value=msg;document.body.appendChild(t);t.select();document.execCommand('copy');t.remove();showToast('📋 Message copié !')}});
+</script>
+</body>
+</html>
